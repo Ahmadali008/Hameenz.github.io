@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script
+      src="https://kit.fontawesome.com/8275300173.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href=" #header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Website Designer</p>
+          <h1>
+            Hi,I'm <span>Ahmad</span> <br />
+            From Pakistan
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------------------About -->
+    <div id="about"></div>
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+           <b>Hi there!</b> 
+
+            Are you looking for a Frontend Web Developer to build a responsive, stunning, and user-friendly website from scratch or looking for someone to redesign & develop your existing website, then you are in the right place! What you can think I can develop it for you!
+            
+            I am Ahmad, A Professional Frontend Web Developer providing reliable web services for a custom website since 2017.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              skills
+            </p>
+            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>HTML+CSS+Java Script</span><br />Desigining responsive Websites </li>
+              <li><span>Graphic Designing </span><br />Design web pages on Figma create Posters,Business Cards & LOGOS </li>
+              <li><span>Amazon</span><br />Amazon FBA & FBM dropshipping in All markets of Europe and USA </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>2020-current</span><br />Internship at WP Academy </li>
+              <li><span>2019-2020 </span><br /> Internship at GFX Company</li>
+              <li><span>2017-2019</span><br />Training From Brakley Company</li>
+              <li>
+                <span>2016-2017</span><br />
+                internship
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>2020-current</span><br />Software Engineering From Comsats University</li>
+              <li><span>2018-2020 </span><br />FSE From Punjab College</li>
+              <li><span>2017-2018</span><br />Metric From A R Secondary School</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------Services--------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h1>Web Design</h1>
+            <p>
+              I will design an elegant website in minimum period of time frame. Feel free to contact to know more about my work and how I can help you.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-wordpress"></i>
+            <h1>word press</h1>
+            <p>
+              Im Ahmad, your potential wordpress Website developer. Having worked with WordPress Design and WordPress Development for over 6 years, I can solve all your website-related problems in a jiffy.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-amazon"></i>
+            <h1>Amazon</h1>
+            <p>
+              I will be your amazon dropshipping and online arbitrage expert VA.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------portfolio------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                voluptatem
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="" />
+            <div class="layer">
+              <h3>online shopping app</h3>=
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                voluptatem
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>music app</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                voluptatem
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- -------------------Contact... -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i> ahmadltd@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> 03116746030</p>
+            <div class="social-icons">
+              <a href="https://web.facebook.com/profile.php?id=100043498451580"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                id=""
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; Ahmad</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbx2jJWehY1lt3j_9f7OHy9d2Au9lUY_vAsz8ooRe3570bKAonaJO8PskQZFDmv7o1vK/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => console.log("Success!", response))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
